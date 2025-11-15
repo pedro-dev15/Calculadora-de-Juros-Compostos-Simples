@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #aa3333;
+  margin: 0;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+  max-width: 35%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  text-align: left;
+  color: #333;
+}
+.inputs {
+  margin-bottom: 20px;
+}
+
+.segundaColuna {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+}
+
+button {
+  margin-top: 13px;
+  margin-left: 100px;
+  background-color: #008cba;
+  cursor: pointer;
+  border-radius: 5px;
+  border: none;
+  margin-right: -75px;
+  padding: 8px;
+  color: white;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0b7dda;
+}
+
+.resultado {
+  margin-top: 15px;
+  padding: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  justify-content: center;
+  text-align: center;
+}
+
+input {
+  height: 25px;
+}
+
+.inputs label,
+.inputs input,
+.inputs h3,
+.inputs button {
+  margin-bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .content {
+    max-width: 90%;
+  }
+  .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  button {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .segundaColuna {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+
+  .inputs h3 {
+    margin-left: 0;
+  }
+
+  .inputs label {
+    margin-bottom: 5px;
+  }
+
+  .inputs input {
+    margin-bottom: 10px;
+  }
+
+  .resultado {
+    margin-top: 10px;
+  }
+
+  .inputs {
+    margin-bottom: 10px;
+  }
+
+  .inputs label,
+  .inputs input,
+  .inputs h3,
+  .inputs button {
+    margin-bottom: 5px;
+  }
+}

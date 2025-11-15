@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora de Juros Compostos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>Calculadora de Juros Compostos</h1>
+      <div class="inputs">
+        <label for="capital">Capital (C)</label>
+        <input type="text" placeholder="Capital" id="capital" />
+
+        <label for="taxa">Taxa de Juros (I)</label>
+        <input type="text" placeholder="Taxa de Juros por Mês" id="taxa" />
+
+        <label for="tempo">Tempo (T)</label>
+        <input type="text" placeholder="Tempo em Meses" id="tempo" />
+
+        <div class="segundaColuna">
+          <label for="Montante">Montante (M)</label>
+          <input type="text" placeholder="Montante" id="montante" />
+
+          <div class="button">
+            <button id="calcular">Calcular</button>
+            <button id="limpar">Limpar</button>
+          </div>
+        </div>
+      </div>
+      <div class="resultado"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
