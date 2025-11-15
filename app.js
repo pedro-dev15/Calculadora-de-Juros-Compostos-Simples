@@ -55,7 +55,7 @@ document.getElementById("calcular").addEventListener("click", function () {
   } else {
     document.querySelector(".resultado").textContent =
       "Por favor insira 3 valores que sejam números e deixe um campo vazio.";
-    document.querySelector(".resultado").style.fontSize = "20px";
+    document.querySelector(".resultado").style.fontSize = "30px";
     document.querySelector(".resultado").style.fontWeight = "bold";
     document.querySelector(".resultado").style.textAlign = "center";
     document.querySelector(".resultado").style.marginTop = "10px";
